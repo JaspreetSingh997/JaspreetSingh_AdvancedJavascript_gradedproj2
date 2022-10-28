@@ -1,0 +1,152 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', sans-serif;
+}
+
+/* Main Page */
+.search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+.search > input {
+  width: 40vw;
+  height: 5vh;
+}
+
+.no-results {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  width: 100vw;
+  overflow-y: hidden;
+  height: 85vh;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow-box {
+  position: relative;
+  width: 60vw;
+  height: 30vh;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 10px black;
+}
+
+/* LOGIN PAGE */
+
+.total-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.inner-box {
+  height: 40vh;
+  width: 40vw;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: center;
+}
+
+input {
+  height: 20px;
+}
+
+.login-btn {
+  align-self: center;
+  border-radius: 2px;
+  background-color: lightgreen;
+}
+
+
+/* Resume Container */
+
+.resume-container {
+  margin: 10px;
+}
+
+.resume-header {
+  text-align: center;
+  background-color: aqua;
+}
+
+#name {
+  padding-top: 50px;
+  margin: 0;
+}
+.appliedFor {
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.resume-columns {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 10px;
+  grid-gap: 50px;
+}
+
+.col-1 {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.col-1-heading {
+  background-color: darkgray;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+#search-result-area {
+  text-align: center;
+}
+
+#search-results {
+  list-style-type: none;
+}
+
+.search-bar-area {
+  text-align: center;
+  margin: auto;
+}
+
+#searchbar {
+  width: 400px;
+}
+
+.resume-container {
+  border: 2px solid black;
+}
+
+.resume-display-area {
+  display: inline;
+}
